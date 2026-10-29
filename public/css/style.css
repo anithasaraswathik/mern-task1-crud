@@ -1,0 +1,99 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f5f9;
+  margin: 0;
+  padding: 30px 15px;
+  color: #222;
+}
+
+.container {
+  max-width: 850px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+form {
+  max-width: 500px;
+  margin: 25px auto 35px;
+}
+
+label {
+  display: block;
+  margin: 15px 0 6px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 11px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 16px;
+  margin: 12px 5px 0 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #2675d8;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+.edit-btn {
+  background: #e3a008;
+  color: #222;
+}
+
+.delete-btn {
+  background: #d93636;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  padding: 12px 8px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background: #eaf1fb;
+}
+
+#message {
+  text-align: center;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+    overflow-x: auto;
+  }
+
+  table {
+    min-width: 500px;
+  }
+}
